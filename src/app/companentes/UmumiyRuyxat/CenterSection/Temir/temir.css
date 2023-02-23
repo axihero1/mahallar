@@ -1,0 +1,58 @@
+.yoshlar-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 68vh;
+    background-color: white;
+    border-radius: 5px;
+    position: static;
+    padding-top: 5px;
+    overflow: scroll;
+  }
+  .yoshlar-container .yoshlar-box {
+    width: 100%;
+    font-size: 19px;
+    padding: 0.5vh;
+    justify-content: space-between;
+    position: relative;
+  }
+  /* .yoshlar-container .yoshlar-box .tayoqs {
+    margin-left: 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 9px;
+  } */
+  .yoshlar-container .yoshlar-box p {
+    margin-left: 1vw;
+  }
+  .yoshlar-container .yoshlar-box .id {
+    margin-right: 1px;
+    font-weight: 400;
+    width: 25px;
+    text-align: end;
+    font-size: 14px;
+  }
+  /* .yoshlar-container .yoshlar-box .margin-left {
+    margin-left: 40px;
+  } */
+  .yoshlar-container .yoshlar-box .tayoq {
+    width: 1px;
+    height: 3vh;
+    background-color: black;
+    margin-left: 3px;
+  }
+  .yoshlar-container .yoshlar-box .none {
+    width: 0px;
+  }
+  .yoshlar-container .yoshlar-box .flex {
+    width: 50%;
+  }
+  @media (max-width: 840px) {
+    .yoshlar-container .yoshlar-box {
+      font-size: 2vw;
+    }
+    .yoshlar-container .yoshlar-box .tayoq {
+      height: 2.5vh;
+    }
+  }
+  
